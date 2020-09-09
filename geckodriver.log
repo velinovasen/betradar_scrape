@@ -94,3 +94,66 @@ JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/j
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1599679759644	geckodriver	INFO	Listening on 127.0.0.1:51789
+1599679762682	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Asen\\AppData\\Local\\Temp\\rust_mozprofilerWcg0e"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599679765217	Marionette	INFO	Listening on port 51798
+1599679765302	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/js/widgets.js?v=1855577091, line 12: unreachable code after return statement
+JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/js/widgets.js?v=1855577091, line 12: unreachable code after return statement
+JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/js/widgets.js?v=1855577091, line 12: unreachable code after return statement
+1599679771825	Marionette	INFO	Stopped listening on port 51798
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599680135200	geckodriver	INFO	Listening on 127.0.0.1:52028
+1599680138252	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Asen\\AppData\\Local\\Temp\\rust_mozprofile1kuuyP"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599680141392	Marionette	INFO	Listening on port 52037
+1599680141874	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/js/widgets.js?v=1855577091, line 12: unreachable code after return statement
+JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/js/widgets.js?v=1855577091, line 12: unreachable code after return statement
+1599680176181	Marionette	INFO	Stopped listening on port 52037
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599680210778	geckodriver	INFO	Listening on 127.0.0.1:52130
+1599680213803	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Asen\\AppData\\Local\\Temp\\rust_mozprofilenhZPod"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599680217126	Marionette	INFO	Listening on port 52139
+1599680217447	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/js/widgets.js?v=1855577091, line 12: unreachable code after return statement
+JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/js/widgets.js?v=1855577091, line 12: unreachable code after return statement
+1599680223257	Marionette	INFO	Stopped listening on port 52139
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599680231754	geckodriver	INFO	Listening on 127.0.0.1:52200
+1599680234844	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Asen\\AppData\\Local\\Temp\\rust_mozprofile3Jskos"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599680237630	Marionette	INFO	Listening on port 52210
+1599680237957	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/js/widgets.js?v=1855577091, line 12: unreachable code after return statement
+JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/js/widgets.js?v=1855577091, line 12: unreachable code after return statement
+1599680247603	Marionette	INFO	Stopped listening on port 52210
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
