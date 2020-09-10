@@ -157,3 +157,40 @@ JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/j
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1599680937041	geckodriver	INFO	Listening on 127.0.0.1:52604
+1599680940078	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Asen\\AppData\\Local\\Temp\\rust_mozprofile8rOhWf"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599680943780	Marionette	INFO	Listening on port 52614
+1599680944200	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/js/widgets.js?v=1855577091, line 12: unreachable code after return statement
+JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/js/widgets.js?v=1855577091, line 12: unreachable code after return statement
+1599680950143	Marionette	INFO	Stopped listening on port 52614
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599769325834	geckodriver	INFO	Listening on 127.0.0.1:54070
+1599769328911	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Asen\\AppData\\Local\\Temp\\rust_mozprofileVySzTM"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1599769334611	Marionette	INFO	Listening on port 54078
+1599769334677	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/js/widgets.js?v=1855577091, line 12: unreachable code after return statement
+JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/js/widgets.js?v=1855577091, line 12: unreachable code after return statement
+1599769340408	Marionette	INFO	Stopped listening on port 54078
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 11872, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

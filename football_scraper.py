@@ -11,6 +11,15 @@ class FootballScraper:
     }
 
     def scrape(self):
+
+        # CONNECT THE DATABASE
+        connector = sqlite3.connect('games.db')
+        cursor = connector.cursor()
+        cursor.execute('CREATE TABLE IF NOT EXISTS allGames('
+                       ' minute TEXT, home_team TEXT, away_team TEXT,'
+                       ' home_score DECIMAL, away_score DECIMAL,'
+                       ' home_odd REAL, draw_odd REAL, away_odd REAL)')
+
         options = FirefoxOptions()
         options.headless = False
         driver = Firefox(options=options, executable_path='C:\Windows\geckodriver.exe')
@@ -22,9 +31,12 @@ class FootballScraper:
         html = driver.execute_script('return document.documentElement.outerHTML;')
 
         soup = BeautifulSoup(html, 'html.parser')
-
+        games = soup.find_all(class_=re.compile("sr-match-container sr-border"))
+        all_games = [list(game) for game in games]
         driver.close()
 
+        for game in all_games:
+            pass
 
 scraper = FootballScraper()
 scraper.scrape()

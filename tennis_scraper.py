@@ -4,6 +4,7 @@ import re
 import sqlite3
 from time import sleep
 
+
 class TennisScraper:
 
     WEB_LINKS = {
