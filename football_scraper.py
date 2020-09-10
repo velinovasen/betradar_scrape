@@ -21,10 +21,10 @@ class FootballScraper:
                        ' home_odd REAL, draw_odd REAL, away_odd REAL)')
 
         options = FirefoxOptions()
-        options.headless = False
+        options.headless = True
         driver = Firefox(options=options, executable_path='C:\Windows\geckodriver.exe')
         driver.get(self.WEB_LINKS["football"])
-        sleep(1)
+        sleep(2)
         driver.find_element_by_xpath(
             '/html/body/div[1]/div/div[2]/div[1]/div[2]/div/div[1]/div/div[1]/div[1]/i').click()
         sleep(1)
@@ -32,11 +32,16 @@ class FootballScraper:
 
         soup = BeautifulSoup(html, 'html.parser')
         games = soup.find_all(class_=re.compile("sr-match-container sr-border"))
-        all_games = [list(game) for game in games]
+        all_games = [game for game in games]
         driver.close()
 
         for game in all_games:
-            pass
+            print(str(game))
+            minute_pattern = r'[n]\"\>([A-z0-9]{1,2})'
+            minute = re.search(minute_pattern, str(game))
+            print(type(minute))
+            print(minute)
+
 
 scraper = FootballScraper()
 scraper.scrape()
