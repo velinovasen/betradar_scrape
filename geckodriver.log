@@ -389,3 +389,75 @@ console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Err
 1599772722096	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/js/widgets.js?v=1855577091, line 12: unreachable code after return statement
 1599772728371	Marionette	INFO	Stopped listening on port 55500
+1599803025036	geckodriver	INFO	Listening on 127.0.0.1:56037
+1599803028075	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Asen\\AppData\\Local\\Temp\\rust_mozprofile8Rxe91"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599803030628	Marionette	INFO	Listening on port 56045
+1599803030720	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/js/widgets.js?v=1855577091, line 12: unreachable code after return statement
+JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/js/widgets.js?v=1855577091, line 12: unreachable code after return statement
+JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/js/widgets.js?v=1855577091, line 12: unreachable code after return statement
+1599803037856	Marionette	INFO	Stopped listening on port 56045
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+[Parent 7772, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1599803918809	geckodriver	INFO	Listening on 127.0.0.1:56395
+1599803921845	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Asen\\AppData\\Local\\Temp\\rust_mozprofile0BOUuf"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599803924876	Marionette	INFO	Listening on port 56403
+1599803924956	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/js/widgets.js?v=1855577091, line 12: unreachable code after return statement
+JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/js/widgets.js?v=1855577091, line 12: unreachable code after return statement
+JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/js/widgets.js?v=1855577091, line 12: unreachable code after return statement
+1599803931624	Marionette	INFO	Stopped listening on port 56403
+1599804325906	geckodriver	INFO	Listening on 127.0.0.1:56463
+1599804328985	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Asen\\AppData\\Local\\Temp\\rust_mozprofileWsbXtN"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599804331630	Marionette	INFO	Listening on port 56471
+1599804332102	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/js/widgets.js?v=1855577091, line 12: unreachable code after return statement
+JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/js/widgets.js?v=1855577091, line 12: unreachable code after return statement
+JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/js/widgets.js?v=1855577091, line 12: unreachable code after return statement
+1599804338018	Marionette	INFO	Stopped listening on port 56471
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+1599804354174	geckodriver	INFO	Listening on 127.0.0.1:56526
+1599804357255	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Asen\\AppData\\Local\\Temp\\rust_mozprofile44zpR9"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599804360341	Marionette	INFO	Listening on port 56534
+1599804360380	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/js/widgets.js?v=1855577091, line 12: unreachable code after return statement
+JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/js/widgets.js?v=1855577091, line 12: unreachable code after return statement
+JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/js/widgets.js?v=1855577091, line 12: unreachable code after return statement
+1599804366147	Marionette	INFO	Stopped listening on port 56534
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+[Parent 10808, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1599804391024	geckodriver	INFO	Listening on 127.0.0.1:56588
+1599804394149	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Asen\\AppData\\Local\\Temp\\rust_mozprofileIPzW92"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599804397272	Marionette	INFO	Listening on port 56596
+1599804397764	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/js/widgets.js?v=1855577091, line 12: unreachable code after return statement
+JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/js/widgets.js?v=1855577091, line 12: unreachable code after return statement
+JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/js/widgets.js?v=1855577091, line 12: unreachable code after return statement
+1599804404450	Marionette	INFO	Stopped listening on port 56596
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+1599804780841	geckodriver	INFO	Listening on 127.0.0.1:56692
+1599804783885	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Asen\\AppData\\Local\\Temp\\rust_mozprofileRISXsD"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599804786817	Marionette	INFO	Listening on port 56700
+1599804787004	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/js/widgets.js?v=1855577091, line 12: unreachable code after return statement
+JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/js/widgets.js?v=1855577091, line 12: unreachable code after return statement
+JavaScript warning: https://cs.betradar.com/ls/widgets/assets/betradar/widgets/js/widgets.js?v=1855577091, line 12: unreachable code after return statement
+1599804794243	Marionette	INFO	Stopped listening on port 56700

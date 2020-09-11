@@ -37,10 +37,24 @@ class FootballScraper:
 
         for game in all_games:
             print(str(game))
+
+            # TAKE THE MINUTE
             minute_pattern = r'[n]\"\>([A-z0-9]{1,2})'
-            minute = re.search(minute_pattern, str(game))
-            print(type(minute))
-            print(minute)
+            minute_token = re.search(minute_pattern, str(game))
+            minute = minute_token.group(1)
+
+            # FIND THE TEAMS
+            teams_pattern = r'[e]\=\"(.{1,40})\"\>'
+            teams_token = re.findall(teams_pattern, str(game))
+            home_team, away_team = teams_token[0], teams_token[1]
+
+            # FIND THE SCORE
+            home_score_pattern = r'[e]\"\>(\d{1,2})\<'
+            away_score_pattern = r'[y]\"\>(\d{1,2})\<'
+            home_score_token = re.search(home_score_pattern, str(game))
+            away_score_token = re.search(away_score_pattern, str(game))
+            home_score = home_score_token.group(1)
+            away_score = away_score_token.group(1)
 
 
 scraper = FootballScraper()
